@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>REGISTRO DE TRABAJADORES</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: white;
+    }
+
+    .btn-registrar {
+      background-color: #007bff;
+    }
+
+    .btn-registrar:active {
+      background-color: #0056b3;
+    }
+
+    .btn-nuevo {
+      background-color: #28a745;
+    }
+
+    .btn-nuevo:active {
+      background-color: #1c7c31;
+    }
+    .btn-siguiente {
+      background-color:#816585;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Referencias familiares</h2>
+    <form>
+      <label for="numero">Nombre 1</label>
+      <input type="text" id="name1" name="name2" required />
+
+      <label for="numero">Parentesco 1</label>
+      <input type="text" id="pa1" name="pa2" required />
+
+      <label for="numero">Nombre 2</label>
+      <input type="text" id="name2" name="name2" required />
+
+      <label for="numero">Parentesco 2</label>
+      <input type="text" id="pa2" name="pa2" required />
+
+      <label for="numero">Nombre 3</label>
+      <input type="text" id="name3" name="name3" required />
+
+      <label for="numero">Parentesco 3</label>
+      <input type="text" id="pa3" name="pa3" required />
+
+     
+      <div class="buttons">
+        <button type="submit" class="btn-registrar">Registrar</button>
+        <button type="reset" class="btn-nuevo">Nuevo</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
