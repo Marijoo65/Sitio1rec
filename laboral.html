@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>REGISTRO DE TRABAJADORES</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2d7d5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      color: white;
+    }
+
+    .btn-registrar {
+      background-color:#ebdef0;
+    }
+
+    .btn-registrar:active {
+      background-color:#d4e6f1;
+    }
+
+    .btn-nuevo {
+      background-color: #d1f2eb;
+    }
+
+    .btn-nuevo:active {
+      background-color:#d0ece7;
+    }
+    .btn-siguiente {
+      background-color:#d4efdf;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Experencia laboral</h2>
+    <form>
+      <label for="numero">Empresa 1</label>
+      <input type="text" id="em1" name="em1" required />
+
+      <label for="lugar">Empresa 2</label>
+      <input type="text" id="em2" name="em2" required />
+
+      <label for="numero">Empresa3</label>
+      <input type="text" id="em3" name="em3" required />
+
+      <div class="buttons">
+        <button type="submit" class="btn-registrar">Registrar</button>
+        <button type="reset" class="btn-nuevo">Nuevo</button>
+        <button type="siguiente" class="btn-siguiente"><a href="re_fami.html">siguientes</a></button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
